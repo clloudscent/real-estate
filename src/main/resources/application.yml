@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/practice
+    username: airplane
+    password: airplane1234
+  thymeleaf:
+    view-names: "*"
+    prefix: "classpath:templates/"
+    suffix: ".html"
+    cache: false
+    check-template-location: true
